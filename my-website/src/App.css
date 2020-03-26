@@ -1,0 +1,51 @@
+.App {
+  font-family: "Liu Jian Mao Cao", cursive;
+  background: url("./images/green-leafed-plant-2748756.jpg");
+  background-size: cover;
+  background-position: tp;
+  background: cover;
+  position: relative;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.Header {
+  display: grid;
+  grid-row: 1fr;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: 50px;
+  background: url("./images/green-leafed-plant-2748756.jpg");
+  background-size: cover;
+}
+
+.Nav {
+  font-size: 25px;
+}
+
+.h2 {
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.Home {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Me {
+  height: 171px;
+  width: 180px;
+  transform: rotate(90deg);
+  grid-column: 1fr;
+}
+.Contact {
+  text-align: center;
+}
+
+.ProjectCardImage {
+  height: 390px;
+  width: 396px;
+}
