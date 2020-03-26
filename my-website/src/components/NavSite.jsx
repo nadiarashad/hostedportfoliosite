@@ -9,7 +9,7 @@ const NavSite = () => {
           <Nav.Link className="Nav" href="/">
             About
           </Nav.Link>
-          <Nav.Link className="Nav" href="projects">
+          <Nav.Link className="Nav" href="/projects">
             Projects
           </Nav.Link>
           <Nav.Link className="Nav" href="/contact">
