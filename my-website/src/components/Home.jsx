@@ -9,7 +9,11 @@ const Home = () => {
       <br></br>
       <p className="h2">Welcome to my portfolio website</p>
       <br></br>
-      <Image src={require("./Me.png")} roundedCircle className="Me" />
+      <Image
+        src={require("./20190607_190334.jpg")}
+        roundedCircle
+        className="Me"
+      />
       <br></br>
       <br></br>
       <h3>Past experience...</h3>

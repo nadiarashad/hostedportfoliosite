@@ -36,9 +36,8 @@
 }
 
 .Me {
-  height: 171px;
-  width: 180px;
-  transform: rotate(90deg);
+  height: 200px;
+  width: 190px;
   grid-column: 1fr;
 }
 .Contact {

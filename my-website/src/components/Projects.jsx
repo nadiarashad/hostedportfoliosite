@@ -137,25 +137,28 @@ const Projects = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("./BE.png")} />
+          <Card.Img variant="top" src={require("./naughts.png")} />
           <Card.Body>
-            <Card.Title>Northcoders News Back End</Card.Title>
+            <Card.Title>Naughts {"&"} crosses mini app</Card.Title>
             <Card.Text>
-              NC News API NC News API is a back-end API built to serve the
-              front-end for the Northcoders News UI. <br></br>
-              Testing has been implemented throughout, with each describe block
-              representing an endpoint on the api, and each it block creates a
-              new valid or invalid http request to that endpoint. The API
-              responds must match the assertions written in expect statements
-              for the particular test to pass.<br></br> This API is hosted on
-              Heroku. <br></br>
-              <br></br> A link to my GitHub repository can be found{" "}
+              This sprint was another pair programming task, we created a
+              Naughts {"&"} Crosses mini game using a css grid. We used React
+              Class Components to reset state after each player turn and also
+              callback functions running in the background which checked whether
+              the current combinations matched any of the winning combinations
+              we had set.
+              <br></br>
+              We allowed users to be able to input their name and used an
+              onSubmit on the form to handle the text input. We also imported
+              fonts from Google Fonts and styles the components in a classic
+              board game design
+              <br></br> <br></br> Why not have a turn on the game yourself?
               <a
-                href="https://github.com/nadiarashad/nc_news_new"
+                href="https://nadiaandjamesnaughtsandcrosses.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/nadiarashad/nc_news_new
+                https://nadiaandjamesnaughtsandcrosses.netlify.com/
               </a>
             </Card.Text>
           </Card.Body>
@@ -164,26 +167,74 @@ const Projects = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("./StudentTracker.png")} />
+          <Card.Img variant="top" src={require("./mitch2.png")} />
           <Card.Body>
-            <Card.Title>Student Tracker</Card.Title>
+            <Card.Title>
+              Mitch's rare treasures seeding and MVC model sprint
+            </Card.Title>
             <Card.Text>
-              Northcoders identified a need to better track students' journeys
-              through the course, they provided an API with various endpoints
-              and it was my task to create a user friendly interface so that
-              coders and non-coders can view and edit students' information.
+              This sprint required me to create a seed function for the
+              insertion of data using knex. This was also a paired programming
+              task, where we created util functions to initially seed data using
+              reference objects and accessing endpoints to POST, PATCH, DELETE,
+              GET requests to the API. We used the Model View Controller (MVC)
+              method to display routing and seperate functionality.<br></br>{" "}
+              Data was tested by the creation of a spec file using Mocha,
+              supertest, Chai and sams-chai-sorted.
               <br></br> <br></br>A link to my GitHub repository can be found
               here{" "}
               <a
-                href="https://github.com/nadiarashad/student-tracker"
+                href="https://github.com/nadiarashad/Mitchs_treasures"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/nadiarashad/student-tracker
+                https://github.com/nadiarashad/Mitchs_treasures
               </a>{" "}
-              <br></br> The UI was created using React and the endpoints/date
-              were fetched using Axios.
+              <br></br> The
             </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+      </CardDeck>
+      <CardDeck>
+        <Card>
+          <Card.Img variant="top" src={require("./haunted.png")} />
+          <Card.Body>
+            <Card.Title>Haunted House Adventure Game</Card.Title>
+            <Card.Text>
+              Object Oriented Programming was used for the structure of this
+              sprint. The state of the game was represented by the data or
+              properties of the 'Game' object; the actions are methods on the
+              object that affect the state. The Game holds many other contents -
+              such as a player, which has an inventory, which holds an array of
+              Items... and so on. <br></br>
+              <br></br>
+              <br></br> A link to my GitHub repository for this sprint can be
+              found here <br></br> <br></br> This project was created using
+              Node, mocha and chai.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("./placeholder.png")} />
+          <Card.Body>
+            <Card.Title>Placeholder title</Card.Title>
+            <Card.Text>Coming soon...</Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("./placeholder.png")} />
+          <Card.Body>
+            <Card.Title>Placeholder title</Card.Title>
+            <Card.Text>Coming soon...</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
