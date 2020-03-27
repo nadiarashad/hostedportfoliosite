@@ -22,22 +22,23 @@
 
 .Nav {
   font-size: 25px;
+  font-family: "Liu Jian Mao Cao", cursive;
 }
 
 .h2 {
   font-weight: bolder;
   color: black;
   text-align: center;
+  font-family: "Liu Jian Mao Cao", cursive;
 }
 
 .Home {
-  font-weight: bolder;
   text-align: center;
 }
 
 .Me {
   height: 200px;
-  width: 190px;
+  width: 300px;
   grid-column: 1fr;
 }
 .Contact {
@@ -47,4 +48,30 @@
 .ProjectCardImage {
   height: 390px;
   width: 396px;
+}
+
+.Charity {
+  height: 200px;
+  width: 300px;
+  grid-column: 1fr;
+  justify-content: center;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+}
+
+li {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+a {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }

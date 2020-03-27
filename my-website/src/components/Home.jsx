@@ -26,14 +26,19 @@ const Home = () => {
         developer, Dec 2019 - Apr 2020
       </p>
       <br></br>
-      <li>Gregory Pennington Ltd</li>
+      <Link to={"/other"}>
+        <li>Gregory Pennington Ltd</li>
+      </Link>
       <p>Marketing Compliance Manager, Jul 2018 – Dec 2019</p>
       <br></br>
-
-      <li>Think Money Group Limited</li>
+      <Link to={"/other"}>
+        <li>Think Money Group Limited</li>
+      </Link>
       <p>Financial Promotions Analyst, Dec 2014 – Dec 2019</p>
       <br></br>
-      <li>Freeman JOnes Ltd</li>
+      <Link to={"/other"}>
+        <li>Freeman Jones Ltd</li>
+      </Link>
       <p>Risk and Process Analyst, Nov 2013 – Nov 2014</p>
       <br></br>
       <br></br>

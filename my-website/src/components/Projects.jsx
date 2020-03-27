@@ -98,6 +98,7 @@ const Projects = () => {
           </Card.Footer>
         </Card>
       </CardDeck>
+      <br></br> <br></br>
       <CardDeck>
         <Card>
           <Card.Img variant="top" src={require("./Nasa.png")} />
@@ -198,6 +199,7 @@ const Projects = () => {
           </Card.Footer>
         </Card>
       </CardDeck>
+      <br></br> <br></br>
       <CardDeck>
         <Card>
           <Card.Img variant="top" src={require("./haunted.png")} />

@@ -7,13 +7,20 @@ const Contact = () => {
       <br></br>
       <br></br>
       <br></br>
-      <h3>Phone:</h3> 07835502439
+      <h3>Phone:</h3> <p>07835502439</p>
       <br></br>
       <br></br>
-      <h3>Email:</h3> nadiarashid@live.com
+      <h3>Email:</h3> <p>nadiarashid@live.com</p>
       <br></br>
       <br></br>
-      <h3>LinkedIn:</h3> linkedin.com/in/nadia-rashid1/
+      <h3>LinkedIn:</h3>{" "}
+      <a
+        href="https://www.linkedin.com/in/nadia-rashid1/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        linkedin.com/in/nadia-rashid1/
+      </a>
       <br></br>
       <br></br>
       <br></br>

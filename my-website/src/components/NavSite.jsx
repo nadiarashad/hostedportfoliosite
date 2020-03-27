@@ -7,13 +7,16 @@ const NavSite = () => {
       <Navbar bg="dark" variant="dark">
         <Nav class="navbar-nav mr-auto">
           <Nav.Link className="Nav" href="/">
-            About
+            Home
           </Nav.Link>
           <Nav.Link className="Nav" href="/projects">
             Projects
           </Nav.Link>
+          <Nav.Link className="Nav" href="/charity">
+            Charity
+          </Nav.Link>
           <Nav.Link className="Nav" href="/contact">
-            Get in touch
+            Say hi
           </Nav.Link>
         </Nav>
       </Navbar>
